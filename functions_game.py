@@ -18,3 +18,50 @@ while user != 3 and prog != 3:#while user or programm not 3 points display the c
 
     prg = random.randint(1, 3)#prog choice a number
     print("program choice : {}\n".format(prg))#display program choice
+
+    if userAnswers == "1" and prg == 2:
+        print("your choice STONE and program choice LEAF ")
+        print("~~~~~~~~~~~~~{} you loose~~~~~~~~~~~~\n".format(name))
+        #condition of win or loose
+        prog =  prog+1#add point
+
+
+
+
+    if userAnswers == "2" and prg == 3:
+        print("your choice LEAF and program choice SCISSORS")
+        print("~~~~~~~~~~~~~{} you loose~~~~~~~~~~~~\n".format(name))
+        prog =  prog+1#add point
+        #condition of win or loose
+
+
+
+    if userAnswers == "3" and prg == 1:
+        print("your choice SCISSORS and program choice STONE")
+        print("~~~~~~~~~~~~~{} you loose~~~~~~~~~~~~\n".format(name))
+        prog =  prog+1#add point
+        #condition of win or loose
+
+
+    if prg == 1 and userAnswers == "2":
+        print("your choice LEAF and program choice STONE")
+        print("~~~~~~~~~~~~~{} you win~~~~~~~~~~~~\n".format(name))
+        user = prog+1#add point
+        #condition of win or loose
+
+
+    if prg == 2 and userAnswers == "3":
+        print("your choice SCISSORS and program choice LEAF")
+        print("~~~~~~~~~~~~~{} you win~~~~~~~~~~~~\n".format(name))
+        user = user+1#add point
+        #condition of win or loose
+
+
+    if prg == 3 and userAnswers == "1":
+        print("your choice STONE and program choice SCISSORS")
+        print("~~~~~~~~~~~~~{} you win~~~~~~~~~~~~\n".format(name))
+        #condition of win or loose
+        user = user+1#add point
+
+    if userAnswers == prg:
+        print(">>>>>>equality<<<<<<\n")
