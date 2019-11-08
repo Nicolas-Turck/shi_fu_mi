@@ -84,14 +84,9 @@ def game():#create function game
 
 
     if prog == 3:#condition if program win
-        print("            |*************|")
+        print("            |************|")
         print("~~~~~~~~<<<<|**PROG WIN**|>>>>~~~~~~~")
-        print("            |*************|")
+        print("            |************|")
         print("your score {} and program score {}".format(user, prog))
         score.update({"bots" : 1})#add score to dict score
         print(score)#display score
-
-
-
-
-    
