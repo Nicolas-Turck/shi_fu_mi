@@ -65,3 +65,27 @@ while user != 3 and prog != 3:#while user or programm not 3 points display the c
 
     if userAnswers == prg:
         print(">>>>>>equality<<<<<<\n")
+
+
+    print("{} your score : {}".format(name, user))#display score of user
+    print("program score : {}\n".format(prog))#display score of program
+    print("**************************************")
+    if user == 3 :#condition if user win
+        print("            |***********|")
+        print("~~~~~~<<<<<<|**YOU WIN**|>>>~~~~~~~~~")
+        print("            |***********|")
+        print("your score {} and program score {}".format(user, prog))
+        score.update({name : 1})#add score to dict score
+        print(score)#print dict
+
+        from game import userChoice
+    if prog == 3:#condition if program win
+        print("            |*************|")
+        print("~~~~~~~~<<<<|**GAME OVER**|>>>>~~~~~~~")
+        print("            |*************|")
+        print("your score {} and program score {}".format(user, prog))
+        score.update({"bots" : 1})#add score to dict score
+        print(score)#display score
+        
+
+        from shi_fu_mi import userChoice
