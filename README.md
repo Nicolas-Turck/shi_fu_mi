@@ -1,13 +1,9 @@
 # shi fu mi game
 ## welcomme to shifumi game 
 
-Bonjour ce projet représente le jeux shi fu mi.
-Je l'ai mis en oeuvre en utilisant ce que j'ai apris jusqu'a maintenant en formation.
-J'ai utiliser pour cela des boucles while.
-Des conditions.
-La methode .format 
-La methode randin pour le choix du program dans le jeux.
-Mais aussi  la créations de function .
-dans un second fichier ainsi que l'apel de fonction et la mise en paramètres 
+Hello this project is the game shi fu mi.
+i implemented it using what i leearned so far in shcool
+i use for that "while, loops, conditions .format method and randin method for the choice of program in the game"
+but i also create many functions in other files and use the import for use the functions
 
-J'ai aussi effectuer un usecase et la mise en place d'une methode de travail avec "trello"
+I also create an usecase and set up a working method "trello"
